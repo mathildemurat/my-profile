@@ -1,0 +1,105 @@
+body{
+	text-align: center;
+	font-family: 'Barlow', sans-serif;
+	color: white;
+	font-size: 20px;
+}
+
+h1{
+	color:#972D07;
+}
+
+h2{
+	color: white;
+	font-family: 'Barlow', sans-serif;
+	font-weight: 900;
+}
+
+a{
+	color: #972D07;
+	text-decoration: none;
+}
+
+img{
+border-radius:50%;
+width: 350px;
+height:350px;
+} 
+
+i{
+	font-size: 32px;
+}
+
+.container{
+	width: 600px; 
+	margin: 35px auto;
+
+}
+
+@media(max-width: 960px){
+	.container{
+	width: 700px;
+	}
+}
+
+@media(max-width: 720px){
+	.container{
+	width: 500px;
+	}
+}
+
+@media(max-width: 540px){
+	.container{
+		width: 300px;
+	}
+}
+
+.card{
+	background-color: #2FA494;
+	padding:35px 12px;
+	margin: 35px 0px;
+	width: 600px;
+	border-radius: 20px;
+}
+
+ul{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.paragraphe-jaune{
+	color: white;
+	font-family: 'Lato', sans-serif;
+}
+
+.cta{
+	background-color: red;
+	color: white;
+	border-radius: 5%;
+	padding: 15px 50px;
+}
+
+a:hover{
+	background-color: pink;
+}
+
+#text {
+	padding: 35px;
+}
+
+#bg-img {
+	background-image: linear-gradient(rgba(0, 0, 0, 0, 120), rgba(0, 0, 0, 0.5)), url("horizon.jpeg");
+	background-size: 100%; 
+	background-position: bottom;
+	color: white;
+
+}
+
+}
+
+
+
+
+
+
+
